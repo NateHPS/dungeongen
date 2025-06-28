@@ -249,7 +249,7 @@ export default function App() {
 
   return (
     <div>
-      <h1>Dungeon Room Generator</h1>
+      <h1>Dungeon Rooms</h1>
       <button onClick={generateRooms}>Generate New Rooms</button>
       {rooms.map((room, index) => (
         <div key={index} style={{ border: locked.includes(index) ? '2px solid red' : '1px solid gray', marginBottom: '10px', padding: '10px' }}>
