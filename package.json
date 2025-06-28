@@ -1,5 +1,5 @@
 {
-  "name": "dungeon-room-generator",
+  "name": "dungeon-rooms",
   "version": "1.0.0",
   "scripts": {
     "dev": "vite",
